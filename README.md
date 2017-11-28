@@ -1,3 +1,3 @@
 # Non-rigid-computer-simulation
-##Clothes (Mass-Spring system)
-##Beams (FEM)
+## Clothes (Mass-Spring system)
+## Beams (FEM)
