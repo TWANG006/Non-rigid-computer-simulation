@@ -226,6 +226,7 @@ void displayFunc(void)
 	glutSetWindowTitle(sysinfoglobals->cTitleinfo);
 	
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	glClearColor(0.96f, 0.96f, 0.96f, 0.0f);
 	glLoadIdentity();
 	glTranslatef(0.0, 0.0, graphicalglobals->fDist);
 	glRotatef(graphicalglobals->rX, 1.0, 0.0, 0.0);

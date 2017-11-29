@@ -338,7 +338,7 @@ void display()
 	sprintf_s(info, "FPS: %3.2f, Frame time (GLUT): %3.5f msecs, Frame time (QP): %3.3f", fps, fFrameTime,dFrameTimeQP);
 	glutSetWindowTitle(info);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	glClearColor(0.5,0.5,0.5,1.0);
+	glClearColor(0.0,0.0,0.0,1.0);
 	glLoadIdentity();
 	glTranslatef(0,0,fDist);
 	glRotatef(fRotationX,1,0,0);
